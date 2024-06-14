@@ -13,15 +13,11 @@ function App() {
   return (
     <>
     <Navbar/>
+    < br/> 
     < br/>
     <div>
     <div className="card mb-3 "style={{ minWidth:"40vh" }}>
-      <img src="https://cdn3.iconfinder.com/data/icons/business-220/63/team-512.png" style={{width:"35%" }} className="card-img-top" alt="..." ></img>
-      <div className="card-body">
-        <h1 className="card-title">Meet our 2023 <i>IEEE</i>  team</h1>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-      </div>
+    <Login/>
       </div>
       </div>
       </>

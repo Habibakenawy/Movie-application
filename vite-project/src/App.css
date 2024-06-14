@@ -4,8 +4,13 @@
   padding: 2rem;
   text-align: center;
 } */
+
+#root{
+  background-color: rgb(8, 160, 216);
+}
 .card{
-  max-width: 1280px;
+  /* max-width: 1280px; */
+  max-width:500px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
