@@ -15,10 +15,16 @@ function App() {
     <Navbar/>
     < br/> 
     < br/>
-    <div>
+    <div className='my'>
+    <br/>
     <div className="card mb-3 "style={{ minWidth:"40vh" }}>
     <Login/>
+   
       </div>
+      {/* <div className="card mb-3 "style={{ minWidth:"40vh" }}>
+    <Signup/>
+      </div> */}
+      <br/>
       </div>
       </>
   )

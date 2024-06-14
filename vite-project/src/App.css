@@ -5,8 +5,13 @@
   text-align: center;
 } */
 
-#root{
+/* #root{
   background-color: rgb(8, 160, 216);
+} */
+
+.my{
+  background-color: #f8f9fa;
+  border-radius: 10px;
 }
 .card{
   /* max-width: 1280px; */
