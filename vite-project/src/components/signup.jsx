@@ -3,15 +3,15 @@ import { useState } from "react";
 import { Component } from "react";
 
 
-class Signin extends Component {
+class Signup extends Component {
 
     render() {
         return (
             <div>
-            <h3>React Signin Component</h3>
+            <h3>React Signup Component</h3>
         </div>
         );
     }
 }
 
-export default Signin;
+export default Signup;
