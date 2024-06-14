@@ -3,7 +3,7 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react'
 import './App.css'
-import 'bootstrap'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Login from './components/login'
 import Signin from './components/signin'
 
@@ -12,40 +12,15 @@ function App() {
 
   return (
     
-    <Router>
-    <div className="App">
-      <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-        <div className="container">
-          <Link className="navbar-brand" to={'/sign-in'}>
-            positronX
-          </Link>
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <Link className="nav-link" to={'/sign-in'}>
-                  Login
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to={'/sign-up'}>
-                  Sign up
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div className="auth-wrapper">
-        <div className="auth-inner">
-          <Routes>
-            <Route exact path="/" element={<Login />} />
-            <Route path="/sign-in" element={<Login />} />
-            <Route path="/sign-up" element={<Signin />} />
-          </Routes>
-        </div>
-      </div>
-    </div>
-  </Router>
+
+  <div className="card" style="width: 18rem;">
+  <img src="..." className="card-img-top" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
   )
 }
 
