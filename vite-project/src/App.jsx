@@ -18,7 +18,7 @@ function App() {
     < br/> 
     < br/>
  
-    {/* for every page you need to uncomment it's section and comment the other sections*/}
+    {/* for every page you need to uncomment it's section and comment the other sections,Always Leave the Navbar & br uncommented.  */}
     {/* I have been trying to redirect between pages using React-routing,It's still not working for me. */}
   
 
@@ -26,12 +26,12 @@ function App() {
     {/* 1-login */}
 
 
-    {/* <div className='my'>       
+    <div className='my'>       
     <br/>
     <div className="card mb-3 "style={{ minWidth:"40vh" }}>
   <Login/>      
       </div> 
-      </div> */}
+      </div>
 
 
     {/* 2-signup */}
