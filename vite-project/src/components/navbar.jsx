@@ -2,11 +2,11 @@ import React from "react";
 import { Component } from "react";
 import { useState } from "react";
 import "../App.css";
+import Signup from "./signup";
+import Login from "./login";
 class Navbar extends Component {
     render() {
-        return (
-         
-
+        return (     
             <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light" >
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">Movie Application</a>
@@ -16,7 +16,7 @@ class Navbar extends Component {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <a className="nav-link active" aria-current="page" href="#" onClick={Signup}>Home</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">About</a>
@@ -38,8 +38,7 @@ class Navbar extends Component {
                     </div>
                 </div>
             </nav>
-            
-
+   
         );
     }
 }

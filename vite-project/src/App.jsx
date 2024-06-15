@@ -17,22 +17,57 @@ function App() {
      <Navbar/>
     < br/> 
     < br/>
-    <div className='my'>
+ 
+    {/* for every page you need to uncomment it's section and comment the other sections*/}
+    {/* I have been trying to redirect between pages using React-routing,It's still not working for me. */}
+  
+
+
+    {/* 1-login */}
+
+
+    {/* <div className='my'>       
     <br/>
     <div className="card mb-3 "style={{ minWidth:"40vh" }}>
-    <Login/>
-   
+  <Login/>      
       </div> 
-      </div>
-      {/* <div className="card mb-3" style={{ minWidth:"40vh" }}>
-    <Signup/>
       </div> */}
-      {/* <br/>
-      </div> */}
+
+
+    {/* 2-signup */}
+
+
+{/* 
+       <div className='my'>
+    <br/>
+    <div className="card mb-3 "style={{ minWidth:"40vh" }}>
+      <Signup/>
+    </div> 
+    </div>  */}
+
+
+
+    {/* 3-homepage */}
+  
+
+
       {/* <Homepage/> */}
-    {/* <Details/> */}
+
+
+
+
+
+    {/* 4-details */}
+      
+
+
+      {/* <Details/> */}
       </>
   )
 }
 
 export default App
+
+
+// This is an unfinished project, I'll work on redirecting between pages and completing the details' page and the favourites' page.
+

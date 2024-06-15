@@ -1,14 +1,11 @@
 import React from "react";
 import { Component } from "react";
-import Navbar from "./navbar";
 import "../App.css";
 
 class Details extends Component {
     render() {
         return (
             <div>
-               <Navbar/>
-                <br/>
                 <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
