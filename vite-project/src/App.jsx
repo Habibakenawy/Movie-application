@@ -7,12 +7,14 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Login from './components/login'
 import Signup from './components/signup'
 import Navbar from './components/navbar'
+import Homepage from './components/homepage'
+import Details from './components/details'
 
 function App() {
 
   return (
     <>
-    <Navbar/>
+     <Navbar/>
     < br/> 
     < br/>
     <div className='my'>
@@ -20,12 +22,15 @@ function App() {
     <div className="card mb-3 "style={{ minWidth:"40vh" }}>
     <Login/>
    
+      </div> 
       </div>
-      {/* <div className="card mb-3 "style={{ minWidth:"40vh" }}>
+      {/* <div className="card mb-3" style={{ minWidth:"40vh" }}>
     <Signup/>
       </div> */}
-      <br/>
-      </div>
+      {/* <br/>
+      </div> */}
+      {/* <Homepage/> */}
+    {/* <Details/> */}
       </>
   )
 }
